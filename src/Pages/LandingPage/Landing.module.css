@@ -1,0 +1,232 @@
+header.header {
+  width: 100%;
+  background: #f63854;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header .topbar .logo {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  padding: 4px 8px;
+}
+
+.header .topbar .menu>ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.header .topbar .menu>ul>li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+.header .topbar .menu>ul>li>a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 8px 12px;
+  display: block;
+}
+
+.header .topbar .menu>ul>li>a .fa {
+  font-size: 10px;
+  margin-left: 2px;
+}
+
+.header .topbar .menu>ul>li>a:hover {
+  background: rgba(255, 255, 255, .1);
+}
+
+.header .topbar .menu .submenuwrapper {
+  position: absolute;
+  padding-top: 10px;
+  z-index: 99;
+}
+
+.header .topbar .menu ul.submenu {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+  background: #fff;
+  padding: 6px;
+  /*left: 10px;*/
+  display: none;
+
+  box-shadow: 0px 2px 2px 2px rgb(210, 38, 64);
+}
+
+/*
+.header .topbar .menu ul.submenu::before{
+  border-bottom: 8px solid #e0e0e0;
+  border-left: 8px solid rgba(0, 0, 0, 0);
+  border-right: 8px solid rgba(0, 0, 0, 0);
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: 88px;
+  top: -8px;
+}
+*/
+.header .topbar .menu li.hassub:hover::after {
+  border-bottom: 8px solid #fff;
+  border-left: 8px solid rgba(0, 0, 0, 0);
+  border-right: 8px solid rgba(0, 0, 0, 0);
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: 16px;
+  margin: 0 auto;
+  top: 39px;
+  z-index: 99;
+}
+
+.header .topbar .menu>ul>li:hover ul.submenu {
+  display: block;
+}
+
+.header .topbar .menu ul.submenu>li>a {
+  font-size: 14px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+  white-space: nowrap;
+  text-decoration: none;
+  text-align: left;
+  color: #f63855;
+  border-radius: 4px;
+}
+
+.header .topbar .menu ul.submenu>li>a:hover {
+  background: rgba(246, 56, 84, 0.2);
+}
+
+.header .topbar .user {
+  text-align: right;
+}
+
+.header .topbar .user a {
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.header .topbar .user a.login {
+  color: #fff;
+}
+
+.header .topbar .user a.login:hover {
+  background: rgba(255, 255, 255, .1);
+}
+
+.header .topbar .user a.register {
+  background: #fff;
+  color: #f63855;
+}
+
+.header .topbar .user a.register:hover {
+  background: rgba(255, 255, 255, .9);
+}
+
+
+/*
+* Slider
+*/
+.slider {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: linear-gradient(to bottom, #f63854 0%, #f63854 75%, #ffffff 75%, #ffffff 100%);
+}
+
+.slider .slider-content {
+  width: 80%;
+  margin: 0px auto;
+  color: #fff;
+}
+
+.slider .slider-content-header h1 {
+  font-size: 38px;
+  line-height: 46px;
+  text-transform: uppercase;
+}
+
+.slider .slider-content-detail {
+  font-size: 16px;
+  line-height: 30px;
+  padding: 30px 0px;
+}
+
+.slider .slider-content-button a {
+  border-radius: 4px;
+  padding: 14px 24px;
+  border: 2px solid #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.slider .slider-content-button a.signup {
+  background: #fff;
+  color: #f63854;
+}
+
+.slider .slider-content-button a.learnmore {
+  background: #f63854;
+  color: #fff;
+}
+
+
+
+.slider .slider-image {
+  text-align: center;
+  /* margin-bottom: -50px; */
+}
+
+
+
+.features {
+  padding-top: 40px;
+}
+
+.features .feature-icon {
+  padding: 10px 0px;
+}
+
+.features .feature-icon i {
+  background: #fddde2;
+  color: #f63854;
+  padding: 14px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.features .feature-header {
+  font-size: 22px;
+  font-weight: bold;
+  color: #434363;
+  padding: 10px 0px;
+}
+
+.features .feature-divider {
+  background: linear-gradient(to right, #f63854 0%, #f63854 20%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 100%);
+  height: 4px;
+  width: 100%;
+}
+
+.features .feature-detail {
+  color: #434363;
+  padding: 10px 0px;
+}
